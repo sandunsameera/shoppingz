@@ -13,6 +13,7 @@ public class ShoppingzApplication {
 
     }
 
+    //controllers
     @RestController
     public static class HomeController {
         @RequestMapping("/")

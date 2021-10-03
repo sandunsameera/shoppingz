@@ -40,4 +40,13 @@ public class ShoppingzApplication {
         }
     }
 
+    @RestController
+    public static class cacheController {
+        @RequestMapping("/cache")
+        public String index() {
+            return "index.html";
+        }
+    }
+
+
 }

@@ -22,4 +22,13 @@ public class ShoppingzApplication {
         }
     }
 
+    //controllers
+    @RestController
+    public static class ShoppingController {
+        @RequestMapping("/shopping")
+        public String index() {
+            return "index.html";
+        }
+    }
+
 }

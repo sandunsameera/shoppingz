@@ -56,5 +56,13 @@ public class ShoppingzApplication {
         }
     }
 
+    @RestController
+    public static class firstRelease {
+        @RequestMapping("/first")
+        public String index() {
+            return "index.html";
+        }
+    }
+
 
 }

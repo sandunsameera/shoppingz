@@ -31,4 +31,13 @@ public class ShoppingzApplication {
         }
     }
 
+    //controllers
+    @RestController
+    public static class SandunController {
+        @RequestMapping("/sandun")
+        public String index() {
+            return "index.html";
+        }
+    }
+
 }

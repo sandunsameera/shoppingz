@@ -48,5 +48,13 @@ public class ShoppingzApplication {
         }
     }
 
+    @RestController
+    public static class deployController {
+        @RequestMapping("/deploy")
+        public String index() {
+            return "index.html";
+        }
+    }
+
 
 }

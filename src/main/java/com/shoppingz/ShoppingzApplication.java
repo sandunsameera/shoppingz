@@ -63,6 +63,12 @@ public class ShoppingzApplication {
             return "index.html";
         }
     }
-
+    @RestController
+    public static class secondRelease {
+        @RequestMapping("/second")
+        public String index() {
+            return "index.html";
+        }
+    }
 
 }

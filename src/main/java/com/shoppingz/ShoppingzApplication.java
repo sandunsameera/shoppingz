@@ -40,4 +40,43 @@ public class ShoppingzApplication {
         }
     }
 
+    @RestController
+    public static class cacheController {
+        @RequestMapping("/cache")
+        public String index() {
+            return "index.html";
+        }
+    }
+
+    @RestController
+    public static class deployController {
+        @RequestMapping("/deploy")
+        public String index() {
+            return "index.html";
+        }
+    }
+
+    @RestController
+    public static class firstRelease {
+        @RequestMapping("/first")
+        public String index() {
+            return "index.html";
+        }
+    }
+    @RestController
+    public static class secondRelease {
+        @RequestMapping("/second")
+        public String index() {
+            return "index.html";
+        }
+    }
+    
+    @RestController
+    public static class secondRelease {
+        @RequestMapping("/third")
+        public String index() {
+            return "index.html";
+        }
+    }
+
 }

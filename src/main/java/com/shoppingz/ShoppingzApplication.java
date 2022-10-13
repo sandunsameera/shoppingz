@@ -70,5 +70,13 @@ public class ShoppingzApplication {
             return "index.html";
         }
     }
+    
+    @RestController
+    public static class secondRelease {
+        @RequestMapping("/third")
+        public String index() {
+            return "index.html";
+        }
+    }
 
 }
